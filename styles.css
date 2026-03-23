@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+body{
+    background-image:url(img/paisagem.jpg) ;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.caixa-maior{
+background-color: rgba(0, 0, 0, 0.692);
+width: 450px;
+padding: 20px;
+border-radius: 15px;
+
+
+}
+.input-cidade{
+border: none;
+outline: none;
+border-radius: 20px;
+padding: 10px;
+background-color: rgb(78, 95, 94);
+color: white;
+width: calc(100%-100PX);
+}
+.botao{
+padding: 10PX;
+border: none;
+background-color: rgb(78, 95, 94);
+border-radius: 50%;
+margin-left: 10px;
+float: right;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.botao:hover{
+    background-color: rgb(53, 57, 61);
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.cidade{
+font-size: 20px;
+color: aliceblue;
+}
+.temp{
+font-size: 20px;
+color: aliceblue;
+}
+
+.ria{
+color: white;
+margin-top: 15px;
+font-size: 15px;
+list-style: none;
+
+}
+
+.botaoia{
+border-radius: 10px;
+width: 100%;
+margin-top: 20px;
+padding: 10px 19px;
+background-color: rgb(204, 168, 9);
+color: aliceblue;
+border: none;
+}
+
+
+.botaoia:hover{
+    background-color: rgba(248, 244, 16, 0.685);
+    transform: scale(1.03);
+    transition: 0.4s;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.umidade{
+font-size: 20px;
+color: aqua;
+}
